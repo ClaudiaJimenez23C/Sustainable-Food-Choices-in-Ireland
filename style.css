@@ -1,0 +1,256 @@
+/* Claudia - Global Style */
+
+body {
+    background-color:#f4f9f4;
+    color:#333;
+    font-family:Arial, sans-serif;
+    margin:0;
+    padding:0;
+    line-height:1.6;
+}
+
+
+/* Claudia - Paragraphs */
+
+p {
+    text-align: center;
+    line-height: 1.6;
+}
+
+
+/* Claudia - Header */
+
+header {
+    background: #2E8B57;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+
+/* Izzeddin - Navigation */
+
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    padding: 20px;
+    background-color: #ffffff;
+    flex-wrap: wrap;
+}
+
+
+nav a {
+    color: #2E8B57;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+nav a:hover {
+    color: #145a32;
+}
+
+
+/* Claudia - Images */
+
+img {
+    display: block;
+    margin: 20px auto;
+    max-width: 100%;
+}
+
+
+/* Claudia - Video */
+
+iframe {
+    display: block;
+    margin: 30px auto;
+    max-width: 90%;
+    border: none;
+}
+
+
+/* Izzeddin - Tables */
+
+table {
+    margin: 30px auto;
+    width: 80%;
+    border-collapse: collapse;
+    background-color: #d9f2d9;
+}
+
+
+th {
+    background-color: #8fd694;
+    color: black;
+    padding: 12px;
+    border: 1px solid #999;
+}
+
+
+td {
+    background-color: #f1faee;
+    padding: 12px;
+    text-align: center;
+    border: 1px solid #999;
+}
+
+
+/* Claudia - Form */
+
+form {
+    width: 450px;
+    max-width: 90%;
+    margin: 50px auto;
+    padding: 30px;
+    background-color: #e8f5e9;
+    border: 2px solid #2E8B57;
+    border-radius: 12px;
+    color: #333;
+}
+
+
+fieldset {
+    border: none;
+}
+
+
+/* Form Labels */
+
+label {
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    font-weight: bold;
+    text-align: left;
+}
+
+
+/* Inputs */
+
+input,
+select,
+textarea {
+    display: block;
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1px solid #aaa;
+    border-radius: 6px;
+    background-color: white;
+    font-size: 15px;
+    box-sizing: border-box;
+}
+
+
+input:focus,
+select:focus,
+textarea:focus {
+    outline: none;
+    border: 2px solid #2E8B57;
+}
+
+
+/* Checkbox */
+
+input[type="checkbox"] {
+    display: inline-block;
+    width: auto;
+    margin-right: 10px;
+}
+
+
+/* Button */
+
+button {
+    display: block;
+    margin: 20px auto 0;
+    padding: 12px 25px;
+    background-color: #2E8B57;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+
+button:hover {
+    background-color: #1f6b42;
+}
+
+
+/* Headings */
+
+h1 {
+    text-align: center;
+    color: #2E8B57;
+}
+
+
+h2 {
+    text-align: center;
+    color: #246b45;
+}
+
+
+/* Claudia - Lists */
+
+ol {
+    text-align: center;
+    list-style-position: inside;
+}
+
+
+/* Claudia - FSAI Role Box */
+
+.role {
+    color: black;
+    background-color: #fff8dc;
+    border: 2px solid #2E8B57;
+    border-radius: 10px;
+    margin: 30px auto;
+    padding: 40px;
+    width: 80%;
+}
+
+
+/* Footer */
+
+footer {
+    color: black;
+    background-color: skyblue;
+    text-align: center;
+    padding: 15px;
+    margin-top: 30px;
+}
+
+
+/* Responsive Design */
+
+@media screen and (max-width: 600px) {
+
+    nav {
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+    form {
+        width: 90%;
+    }
+
+
+    table {
+        width: 95%;
+        font-size: 14px;
+    }
+
+
+    .role {
+        width: 90%;
+        padding: 20px;
+    }
+
+}
